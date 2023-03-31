@@ -5,7 +5,12 @@
 // imprimir usando o FOR
 
 listaAlunosObj = [
-{nome: 'Goku', ki: 600, raça: 'saiyajin', materia: ['Biologia', 'Física', 'Geografia'], nota: 'MB', 'I' 'MB'
-{nome: 'Vegeta', ki: 550, raça: 'saiyajin', notas: ['MB', 'B', 'I'] },
-{nome: 'Gohan', ki: 480, raça: 'saiyajin', notas: ['MB', 'MB', 'MB'] },
+{nome: 'Goku', ki: 600, raça: 'saiyajin', materia: ['Biologia', 'Física', 'Geografia'], notas: ['MB', 'I', 'MB'] },
+{nome: 'Vegeta', ki: 550, raça: 'saiyajin',  materia: ['Biologia', 'Física', 'Geografia'], notas: ['R', 'MB', 'B'] },
+{nome: 'Gohan', ki: 480, raça: 'saiyajin',  materia: ['Biologia', 'Física', 'Geografia'], notas: ['MB', 'MB', 'MB'] },
+
 ]
+
+for(let aluno of listaAlunosObj){
+    console.log(listaAlunosObj)
+}
